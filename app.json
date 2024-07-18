@@ -9,7 +9,7 @@
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#00000"
+      "backgroundColor": "#000000"
     },
     "ios": {
       "supportsTablet": true,
@@ -17,18 +17,28 @@
       "splash": {
         "image": "./assets/splash.png",
         "resizeMode": "contain",
-        "backgroundColor": "#00000"
+        "backgroundColor": "#000000"
       }
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#00000"
+        "backgroundColor": "#000000"
       },
       "package": "com.fanfliq"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins": [
+      [
+        "expo-font",
+        {
+          "fonts": [
+            "node_modules/@expo-google-fonts/poppins/Poppins_700Bold.ttf"
+          ]
+        }
+      ]
+    ]
   }
 }
