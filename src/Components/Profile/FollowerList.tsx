@@ -22,7 +22,7 @@ const FollowerList = () => {
   const fetchingFollowersData = async () => {
     setIsLoading(true);
     try {
-      const response = await axios.get("https://randomuser.me/api/?results=5");
+      const response = await axios.get("https://randomuser.me/api/?results=50");
       if (response.data) {
         setFollower(response.data.results);
         setIsLoading(false);
@@ -47,8 +47,8 @@ const FollowerList = () => {
   }
 
   return (
-    <View style={{}}>
-      <View style={{ marginLeft: 18, paddingVertical: 10 }}>
+    <View style={{ flex: 1 }}>
+      <View style={{ marginLeft: 18, paddingTop: 10 }}>
         <CustomText
           text={"Joined Communities"}
           style={{

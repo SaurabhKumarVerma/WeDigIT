@@ -5,12 +5,12 @@ import FollowerList from "./FollowerList";
 
 const Profile = () => {
   return (
-    <View style={{}}>
+    <View style={{ flex: 1 }}>
       <View style={{}}>
         <ArtistAvatar />
       </View>
 
-      <View style={{}}>
+      <View style={{ flex: 1 }}>
         <FollowerList />
       </View>
     </View>
