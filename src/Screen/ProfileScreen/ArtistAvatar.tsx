@@ -63,7 +63,6 @@ const ArtistAvatar = () => {
           flexDirection: "row",
           alignItems: "center",
           alignContent: "center",
-          marginTop: -40,
         }}
       >
         <CustomText
