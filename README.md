@@ -28,9 +28,16 @@ npm run android
 yarn android
 ```
 
+## IOS
+
+```bash
+cd ios
+pod install
+```
+
 ## Library Used
+
 - [Expo](https://reactnative.dev/docs/environment-setup)
 - [React Native Stack Navigation](https://reactnavigation.org/docs/native-stack-navigator)
 - [Bottom Tabs Navigator](https://reactnavtion.org/docs/bottom-tab-navigator)
 - [Expo vector Icon](https://www.npmjs.com/package/react-native-vector-icons)
-
